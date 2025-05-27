@@ -1,0 +1,19 @@
+[tool.setuptools]
+packages = ["ti_mesh2sdf"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ti_mesh2sdf"
+version = "0.0.1"
+description = "Taichi implementation of mesh to SDF conversion"
+requires-python = ">=3.7"
+dependencies = [
+    "tqdm",
+    "taichi",
+    "trimesh",
+    "scikit-image",
+    "numpy < 1.27.0",
+]
