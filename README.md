@@ -30,7 +30,7 @@ python test/sdf2occ.py --obj=output/3b61335c2a004a9ea31c8dab59471222.sdf_res1162
 
 ## Notes
 
-For each in in [nuiscene43](https://huggingface.co/datasets/3dlg-hcvc/NuiScene43/tree/main/nuiscene43) you will find file names such as ***3b61335c2a004a9ea31c8dab59471222.occ_res1162.npz*** or ***5fc65fd24ca647388d055dbc122b2c53.occ_res1393.npz***. This number indicates the resolution of the occupancy grid used to process the scene. We used the labeled scale for each scene to scale them accordingly during the occupancy conversion process. This results in scenes that are naturally unified in scales after the occupancy conversion.
+For each scene in [nuiscene43](https://huggingface.co/datasets/3dlg-hcvc/NuiScene43/tree/main/nuiscene43) you will find file names such as ***3b61335c2a004a9ea31c8dab59471222.occ_res1162.npz*** or ***5fc65fd24ca647388d055dbc122b2c53.occ_res1393.npz***. This number indicates the resolution of the occupancy grid used to process the scene. We used the labeled scale for each scene to scale them accordingly during the occupancy conversion process. This results in scenes that are naturally unified in scales after the occupancy conversion.
 
 ## Acknowledgement
 
